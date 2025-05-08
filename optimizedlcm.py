@@ -18,3 +18,5 @@ def gcd(a,b):
 
     
 print(optimizedlcm(8,24))
+
+# time complexity is O(log(max(a,b)))
