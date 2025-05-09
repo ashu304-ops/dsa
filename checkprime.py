@@ -1,3 +1,4 @@
+'''
 def checkprime(n):
     for i in range(2,n//2 +1):
         if  n%i==0:
@@ -10,3 +11,21 @@ else :
     print('it  is  a prime number')
 
 # time  compleixty is  O(n/2)
+'''
+def checkprime(n):
+    if n==1:
+        return False
+    elif  n%2==0  or  n%3==0:
+        return  False
+    else :
+        i=5
+        while i*i<n:
+            i+=1
+            if  n%i==0 or n%(i+2)==0:
+                return False 
+    return True
+
+if checkprime(15)==True:
+    print('it  is  a  prime number')
+else :
+    print('it is not  prime  number')   
