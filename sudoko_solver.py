@@ -74,5 +74,7 @@ board = [
 ]
 
 print(print_board(board))
+solve(board)
+print(print_board(board))
             
             
