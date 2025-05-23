@@ -12,7 +12,7 @@ else :
 
 # time  compleixty is  O(n/2)
 '''
-def checkprime(n):
+1def checkprime(n):
     if n==1:
         return False
     elif  n%2==0  or  n%3==0:
