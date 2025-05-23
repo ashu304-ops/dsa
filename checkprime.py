@@ -25,7 +25,7 @@ def checkprime(n):
                 return False 
     return True
 
-if checkprime(16)==True:
+if checkprime(19)==True:
     print('it  is  a  prime number')
 else :
     print('it is not  prime  number')   
